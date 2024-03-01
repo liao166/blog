@@ -1,0 +1,11 @@
+<svg id="share-icon-FB" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="Rectangle_10560" data-name="Rectangle 10560" fill="#fff" stroke="#ccc" stroke-width="1">
+    <rect width="35" height="35" rx="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="34" height="34" rx="4.5" fill="none"/>
+  </g>
+  <g id="Group_15145" data-name="Group 15145" transform="translate(-5.36 -2.375)">
+    <g id="Group_11" data-name="Group 11" transform="translate(16.36 8.375)">
+      <path id="Path_69" data-name="Path 69" d="M24.319,21.219h3.622l.549-4.226H24.319V14.3c0-1.207.329-2.031,2.085-2.031h2.25V8.539a28.808,28.808,0,0,0-3.238-.164c-3.239,0-5.434,1.976-5.434,5.544v3.074H16.36v4.226h3.622V32.032h4.337Z" transform="translate(-16.36 -8.375)" fill="#1877f2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="">
+    <title>部落格版面</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icomoon/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="article">
+    <header>
+        <a href="#" class="headerlogo">
+            <!-- <img src="images/logo.png" alt=""> -->
+        </a>
+        <div class="icons">
+            <a href="#">
+                <img src="images/social_fb.png" alt="">
+                <img src="images/social_fb-color.png" alt="">
+            </a>
+            <a href="#">
+                <img src="images/social_yt.png" alt="">
+                <img src="images/social_yt-color.png" alt="">
+            </a>
+            <a href="#">
+                <img src="images/social_line.png" alt="">
+                <img src="images/social_line-color.png" alt="">
+            </a>
+            <a href="#">
+                <img src="images/social_ig.png" alt="">
+                <img src="images/social_ig-color.png" alt="">
+            </a>
+            <a href="#">
+                <img src="images/social_app.png" alt="">
+                <img src="images/social_app-color.png" alt="">
+            </a>
+        </div>
+    </header>
+    <nav>
+        <div class="menu">
+            <ul class="navitems">
+                <li class="active hid"><a href="#">最新</a></li>
+                <li class="active"><a href="#">推薦</a></li>
+                <li><a href="#">節目</a></li>
+                <li><a href="#">優惠</a></li>
+                <li><a href="#">熱門</a></li>
+                <li><a href="#">日韓</a></li>
+                <li class="hid"><a href="#">美食</a></li>
+                <li class="hid"><a href="#">購物</a></li>
+                <li class="hid"><a href="#">旅行</a></li>
+                <li class="hid"><a href="#">懶人包</a></li>
+                <li class="hid"><a href="#">親子</a></li>
+                <li class="hid"><a href="#">生活</a></li>
+                <li class="hid"><a href="#">達人</a></li>
+                <li class="hid"><a href="#">店家</a></li>
+            </ul>
+            <i class="icon-chevron-right"></i>
+        </div>
+        <ul class="righticon">
+            <li class="member">
+                <a href="#">
+                    <img src="images/userAvatar.svg" alt="">
+                </a>
+            </li>
+            <li class="search">
+                <a href="#">
+                    <img src="images/search.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <div class="article_detail">
+                <h1>西門町美食推薦24家！必比登台北美食、火鍋燒肉吃到飽、餐廳小吃</h1>
+                <div class="author">
+                    2023/12/23 15:03｜撰文 XXX｜圖片來源 食尚部落客
+                </div>
+                <div class="author_head">
+                    <div class="head">
+                        <!-- <div class="img">
+                            <img src="images/author_img.jpg" alt="">
+                        </div> -->
+                        <a href="#">食尚編輯部</a>
+                    </div>
+                    <div class="community_box">
+                        <div class="community">
+                            <small>分享：</small>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <!-- <img src="images/share-icon-FB.svg" alt=""> -->
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <!-- <img src="images/share-icon-Line.svg" alt=""> -->
+                                        <i class="icon-line"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <!-- <img src="images/share-icon-ms.svg" alt=""> -->
+                                        <i class="icon-messenger"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <!-- <img src="images/share-icon-Link.svg" alt=""> -->
+                                        <i class="icon-link"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-img">
+                    <img src="images/food.jpg" alt="">
+                </div>
+                <div class="article_content">
+                    <p>
+                        西門町是台北娛樂不夜城，也是流行文化交會的舞台。這裡電影院、百貨林立，餐廳美食超級多，從24小時宵夜、必比登美食到人氣火鍋、最新燒肉店通通有！不管是來看電影還是逛街、聚餐，《食尚玩家》帶你從早吃到晚，出捷運站走路就能到的「最強24家西門町美食」清單，一次整理給你看！
+                        <a href="#">
+                            <span>
+                                <strong>下載食尚APP，天天免費抽大獎！</strong>
+                            </span>
+                        </a>
+                    </p>
+                    <p>&nbsp;</p>
+                    <section class="endtext">
+                        <div class="container">
+                            <div>文章目錄</div>
+                            <button id="btn" data="1" type="button">
+                                <!-- <img src="images/grow.svg" alt=""> -->
+                                <i class="icon-chevron-up"></i>
+                            </button>
+                            <ul class="endtext-active">
+                                <li>
+                                    <svg height="8" width="8">
+                                        <circle cx="4" cy="4" r="4"></circle>
+                                    </svg>
+                                    <a href="#A01">西門町美食有哪些特色？</a>
+                                </li>
+                                <li>
+                                    <svg height="8" width="8">
+                                        <circle cx="4" cy="4" r="4"></circle>
+                                    </svg>
+                                    <a href="#A02">西門町美食【餐廳】推薦５家</a>
+                                </li>
+                                <li>
+                                    <svg height="8" width="8">
+                                        <circle cx="4" cy="4" r="4"></circle>
+                                    </svg>
+                                    <a href="#A03">01.刁民酸菜魚｜西門町排隊餐廳</a>
+                                </li>
+                                <li>
+                                    <svg height="8" width="8">
+                                        <circle cx="4" cy="4" r="4"></circle>
+                                    </svg>
+                                    <a href="#A04">02.開開看江浙小吃｜西門町江浙小館</a>
+                                </li>
+                                <li>
+                                    <svg height="8" width="8">
+                                        <circle cx="4" cy="4" r="4"></circle>
+                                    </svg>
+                                    <a href="#A05">03.叁陸伍貳港式冰室｜西門町港式餐廳</a>
+                                </li>
+                                <li>
+                                    <svg height="8" width="8">
+                                        <circle cx="4" cy="4" r="4"></circle>
+                                    </svg>
+                                    <a href="#A06">04.史丹貓美式餐廳｜西門町美式餐廳</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <p>&nbsp;</p>
+                    <h2>
+                        <a id="A01" name="A01">西門町美食有哪些特色？</a>
+                    </h2>
+                    <p>
+                        西門町美食融合了新與舊，老店小吃林立，新餐廳也搶著進駐。一日美食之旅，早上可以到「蜂大咖啡」點一客營養滿點的早晨套餐；中午到萬年大樓品嘗連６年獲必比登推薦的老山東牛肉家常麵店；下午茶試試賽門甜不辣、阿宗麵線，晚餐有最夯最潮的火鍋、燒肉吃到飽可選。西門美食24小時供應，整日不斷電。
+                    </p>
+                    <p>&nbsp;</p>
+                    <h5>
+                        <img src="images/food1.jpg" alt="西門町美食推薦24家！必比登台北美食、火鍋燒肉吃到飽、餐廳小吃"
+                            title="西門町美食推薦24家！必比登台北美食、火鍋燒肉吃到飽、餐廳小吃">
+                        <br>
+                        ▲西門町美食24小時不斷電，正餐、下午茶、宵夜從早吃到晚。（圖片來源：食尚部落客）
+                    </h5>
+                    <p>&nbsp;</p>
+                    <h2>
+                        <a id="A02" name="A02">西門町美食【餐廳】推薦５家</a>
+                    </h2>
+                    <h3>
+                        <a id="A03" name="A03">01.
+                            <a href="#">刁民酸菜魚</a>
+                            ｜西門町排隊餐廳
+                        </a>
+                    </h3>
+                    <p>
+                        <strong>【Google 4.9星】台中人氣店北上插旗</strong>
+                        <br>
+                        台中超夯的「刁民酸菜魚」2023年底也進駐西門町了。這裡主打比臉盆大、香氣十足的酸菜魚鍋。愛吃辣的一定要點招牌「祕罈酸菜魚」，以龍骨高湯底，加上烏鯉魚片與獨門醃製酸菜，還有豬肉、寬粉、木耳等配料，淋上花椒香料油超級香。怕辣的也有「初戀番茄魚」，加了芹菜、洋蔥等蔬菜的湯頭，喝起來酸酸甜甜，菜如其名酸酸甜甜有如初戀。
+                        <br>
+                        <br>
+                        除了兩款招牌鍋，也有炸物、蔬菜、涼菜可選擇，推薦「沙漏酥魚皮」，用曼波魚皮去炸，金黃酥脆像餅乾一樣，可以在魚鍋中浸泡一下再吃更有風味。
+                        <br>
+                        <br>
+                        西門町「刁民酸菜魚」位於中華路一段，從西門捷運站６號出口走路約５～６分鐘可到。菜色價位為，酸菜魚鍋中盛（盤子直徑41公分）638元/大盛（直徑46公分）898元/特大盛（直徑52公分）1188元。涼菜70元～120元。店內有熱飲免費招待，用餐時間90分鐘。
+                    </p>
+                    <p>&nbsp;</p>
+                    <p class="endt">
+                        <strong>看更多：</strong>
+                        <a href="#">台北第３間「刁民酸菜魚」半價吃！開幕時間、地點一次看，全品項５折快搶</a>
+                    </p>
+                    <p>&nbsp;</p>
+                    <h5>
+                        <img src="images/food2.jpg" alt="西門町美食推薦24家！必比登台北美食、火鍋燒肉吃到飽、餐廳小吃"
+                            title="西門町美食推薦24家！必比登台北美食、火鍋燒肉吃到飽、餐廳小吃">
+                        <br>
+                        ▲店家貼心提供沙漏計時器，沙漏滴落完畢就可以把魚皮夾出享用。（圖片來源：<a href="#">阿華田的美食日記</a>）
+                    </h5>
+                    <p>&nbsp;</p>
+                    <div class="store-info">
+                        <div class="info-box">
+                            <div class="info-img pc">
+                                <img src="https://cc.tvbs.com.tw/img/program/upload/2021/03/12/20210312131804-16aee3f1.jpg"
+                                    alt="">
+                            </div>
+                            <div class="info-detail">
+                                <div class="txtbox">
+                                    <div class="info-img mo">
+                                        <img src="https://cc.tvbs.com.tw/img/program/upload/2021/03/12/20210312131804-16aee3f1.jpg" alt="">
+                                    </div>
+                                    <div class="title">刁民酸菜魚（西門中華店）</div>
+                                    <div class="txt">
+                                        <p class="address">台北市萬華區中華路一段88號1樓</p>
+                                        <p class="tel">02-2388-6668</p>
+                                        <p class="time">週一至日11：00～凌晨03：00</p>
+                                        <p class="url">
+                                            <a href="#">官網請點我</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-btn">
+                            <ul>
+                                <li class="act"><a href="#">下載APP藏口袋</a></li>
+                                <li><a href="#">看店家資訊</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>&nbsp;</p>
+                </div>
+                <div class="adWords">
+                    <div class="tags">
+                        <a href="#">#西門美食</a>
+                        <a href="#">#西門町餐廳</a>
+                        <a href="#">#小吃</a>
+                        <a href="#">#火鍋</a>
+                        <a href="#">#燒肉</a>
+                        <a href="#">#吃到飽</a>
+                        <a href="#">#必比登</a>
+                    </div>
+                </div>
+                <div class="community_box2">
+                    <div class="community">
+                        <small>分享：</small>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <!-- <img src="images/share-icon-FB.svg" alt=""> -->
+                                    <i class="icon-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <!-- <img src="images/share-icon-Line.svg" alt=""> -->
+                                    <i class="icon-line"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <!-- <img src="images/share-icon-ms.svg" alt=""> -->
+                                    <i class="icon-messenger"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <!-- <img src="images/share-icon-Link.svg" alt=""> -->
+                                    <i class="icon-link"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cotxt_title">
+                    <p>延伸閱讀</p>
+                </div>
+                <div id="reading">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <div class="img">
+                                    <img src="images/food4.jpg" alt="">
+                                </div>
+                                <h3 class="txt">南京復興美食推薦！捷運周邊好評TOP10：米其林／小吃／不限時咖啡廳</h3>
+                                <div class="time">2023/12/02 06:30</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img">
+                                    <img src="images/food5.jpg" alt="">
+                                </div>
+                                <h3 class="txt">台北車站美食推薦15家！微風台北車站／京站／新光三越站前店</h3>
+                                <div class="time">2023/12/02 06:30</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img">
+                                    <img src="images/food6.jpg" alt="">
+                                </div>
+                                <h3 class="txt">搭捷運就能到！淡水線７條新手輕鬆爬步道：台版嵐山、七彩梯田、遠眺101</h3>
+                                <div class="time">2023/12/02 06:30</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img">
+                                    <img src="images/food4.jpg" alt="">
+                                </div>
+                                <h3 class="txt">南京復興美食推薦！捷運周邊好評TOP10：米其林／小吃／不限時咖啡廳</h3>
+                                <div class="time">2023/12/02 06:30</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img">
+                                    <img src="images/food4.jpg" alt="">
+                                </div>
+                                <h3 class="txt">南京復興美食推薦！捷運周邊好評TOP10：米其林／小吃／不限時咖啡廳</h3>
+                                <div class="time">2023/12/02 06:30</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img">
+                                    <img src="images/food4.jpg" alt="">
+                                </div>
+                                <h3 class="txt">南京復興美食推薦！捷運周邊好評TOP10：米其林／小吃／不限時咖啡廳</h3>
+                                <div class="time">2023/12/02 06:30</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cotxt_title dn">
+                    <p>人氣點閱榜</p>
+                </div>
+                <div class="content_four">
+                    <div class="owl-carousel">
+                        <div class="owl-stage">
+                            <div class="owl-item">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="images/4.jpg" alt="">
+                                    </div>
+                                    <h3 class="txt">
+                                        政府發錢了！元旦起７行業無薪假勞工可請補貼，每月最高領9200元
+                                    </h3>
+                                    <div class="time">
+                                        2023/12/28 17:43
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="owl-item">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="images/5.jpg" alt="">
+                                    </div>
+                                    <h3 class="txt">
+                                        最難訂「詹記麻辣火鍋」確定展店！開幕時間、地點曝，快朝聖張學友愛店
+                                    </h3>
+                                    <div class="time">
+                                        2023/12/28 17:00
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="owl-item">
+                                <a href="#">
+                                    <div class="img">
+                                        <div class="c-icon">
+                                            <div class="c-icon_discount">優惠</div>
+                                        </div>
+                                        <img src="images/6.jpg" alt="">
+                                    </div>
+                                    <h3 class="txt">
+                                        星巴克、7-11、全家買一送一！全台６間「１月飲品」優惠包，免費喝手搖飲
+                                    </h3>
+                                    <div class="time">
+                                        2023/12/27 19:00
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="owl-item">
+                                <a href="#">
+                                    <div class="img">
+                                        <div class="c-icon">
+                                            <div class="c-icon_discount">優惠</div>
+                                        </div>
+                                        <img src="images/7.jpg" alt="">
+                                    </div>
+                                    <h3 class="txt">
+                                        【新開店】公仔人瘋了！150坪「POP MART西門旗艦店」，４層樓千款潮玩公仔買爆
+                                    </h3>
+                                    <div class="time">
+                                        2023/12/28 17:00
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="owl-item">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="images/4.jpg" alt="">
+                                    </div>
+                                    <h3 class="txt">
+                                        政府發錢了！元旦起７行業無薪假勞工可請補貼，每月最高領9200元
+                                    </h3>
+                                    <div class="time">
+                                        2023/12/28 17:43
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="dIcon next"><i class="icon-chevron-right"></i></button>
+                    <button class="dIcon prev"><i class="icon-chevron-left"></i></button>
+                </div>
+                <div class="cotxt_title">
+                    <p>追蹤我們</p>
+                </div>
+                <div class="icons_share icons">
+                    <a href="#">
+                        <img src="images/social_fb.png" alt="">
+                        <img src="images/social_fb-color.png" alt="">
+                        <!-- <i class="icon-facebook"></i> -->
+                    </a>
+                    <a href="#">
+                        <img src="images/social_yt.png" alt="">
+                        <img src="images/social_yt-color.png" alt="">
+                        <!-- <i class="icon-youtube"></i> -->
+                    </a>
+                    <a href="#">
+                        <img src="images/social_line.png" alt="">
+                        <img src="images/social_line-color.png" alt="">
+                        <!-- <i class="icon-line"></i> -->
+                    </a>
+                    <a href="#">
+                        <img src="images/social_ig.png" alt="">
+                        <img src="images/social_ig-color.png" alt="">
+                        <!-- <i class="icon-instagram"></i> -->
+                    </a>
+                    <a href="#">
+                        <img src="images/social_app.png" alt="">
+                        <img src="images/social_app-color.png" alt="">
+                        <!-- <i class="icon-download"></i> -->
+                    </a>
+                </div>
+                <div class="cotxt_next">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="arrawL"><i class="icon-arrow-left"></i>上一篇</div>
+                                <div class="txt">2024跨年飲品優惠10家！7-11、星巴克、康青龍買一送一，珍奶免費喝</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="arrawR">下一篇<i class="icon-arrow-right"></i></div>
+                                <div class="txt">星巴克「這７字」喝買一送一！６間聖誕飲品＋冰品優惠，85度Ｃ第２杯25元</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="rank">
+                <span class="o-title">人氣點閱榜</span>
+                <a href="#" class="rank_item">
+                    <div class="rank_num">1</div>
+                    <h3 class="rank_text">
+                        別只去礁溪、羅東！新祕境「宜蘭最美漁村」開箱：偽日本鄉村河堤、現撈海鮮
+                    </h3>
+                </a>
+                <a href="#" class="rank_item">
+                    <div class="rank_num">2</div>
+                    <h3 class="rank_text">
+                        7-11新春福袋53款搶先看！達摩米奇、Kitty、史努比８大肖像＋星巴克免費喝
+                    </h3>
+                </a>
+                <a href="#" class="rank_item">
+                    <div class="rank_num">3</div>
+                    <h3 class="rank_text">
+                        三重最強「排隊腿庫飯」！趙正平、小禎吃遍新北｜12/26《魚肉鄉民》店家資訊
+                    </h3>
+                </a>
+                <a href="#" class="rank_item">
+                    <div class="rank_num">4</div>
+                    <h3 class="rank_text">
+                        宜蘭全新「媽祖廟夜市」開幕！每週一、二開逛百家攤位，免費抽3C、夜市美食
+                    </h3>
+                </a>
+                <a href="#" class="rank_item">
+                    <div class="rank_num">5</div>
+                    <h3 class="rank_text">
+                        新竹最強夜市「這天」回歸！近200家攤位等你逛，地點、交通方式一次看
+                    </h3>
+                </a>
+                <a href="#" class="rank_item">
+                    <div class="rank_num">6</div>
+                    <h3 class="rank_text">
+                        星巴克一杯不到28元！全聯即溶咖啡下殺5.5折，加碼30款咖啡買一送一
+                    </h3>
+                </a>
+            </div>
+            <div class="keys">
+                <div class="o-title">熱搜關鍵字</div>
+                <div class="tags">
+                    <a href="#">＃宜蘭美食</a>
+                    <a href="#">＃新莊美食</a>
+                    <a href="#">＃宜蘭景點</a>
+                    <a href="#">＃新北美食</a>
+                    <a href="#">＃腿庫</a>
+                    <a href="#">＃蘆洲美食</a>
+                    <a href="#">＃三重美食</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var container = $('.owl-stage');
+            var items = $('.owl-stage .owl-item');
+            var itemWidth = items.outerWidth(true); // 使用 outerWidth 考慮間距
+
+            function calculateVisibleItems() {
+                var containerWidth = container.width();
+                return Math.floor(containerWidth / itemWidth);
+            }
+
+            var visibleItems = calculateVisibleItems();
+            var totalItems = items.length - visibleItems; // 控制item數量
+
+            var currentIndex = 0;
+
+            $('.next').click(moveNext);
+            $('.prev').click(movePrev);
+
+            function moveNext() {
+                currentIndex = (currentIndex + 1) % totalItems;
+                var moveDistance = -1 * currentIndex * itemWidth;
+                $('.owl-stage').css({
+                    'transition': 'transform 0.3s ease-in-out',
+                    'transform': 'translateX(' + moveDistance + 'px)'
+                });
+            }
+
+            function movePrev() {
+                currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+                var moveDistance = -1 * currentIndex * itemWidth;
+                $('.owl-stage').css({
+                    'transition': 'transform 0.3s ease-in-out',
+                    'transform': 'translateX(' + moveDistance + 'px)'
+                });
+            }
+
+            // 當視窗大小改變時重新計算並應用輪播相關的數值
+            $(window).resize(function () {
+                itemWidth = items.outerWidth(true); // 使用 outerWidth 考慮間距
+                visibleItems = calculateVisibleItems();
+                totalItems = items.length - visibleItems + 1;
+            });
+
+            $("#btn").click(function () {
+                getState = $("#btn").attr("data");
+                if (getState == "1") {
+                    $("#btn").css({ transform: "rotate(180deg)" });
+                    $(".endtext-active").slideUp(500, function () { });  //收起網頁
+                    $("#btn").attr("data", "2");
+                } else {
+                    $("#btn").css({ transform: "rotate(0deg)" });
+                    $(".endtext-active").slideDown(500, function () { });  //放下網頁
+                    $("#btn").attr("data", "1");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

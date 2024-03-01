@@ -1,0 +1,18 @@
+<svg id="share-icon-ms" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.168" cy="1" r="1.1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#09f"/>
+      <stop offset="0.6" stop-color="#a033ff"/>
+      <stop offset="0.9" stop-color="#ff5280"/>
+      <stop offset="1" stop-color="#ff7061"/>
+    </radialGradient>
+  </defs>
+  <g id="Rectangle_10562" data-name="Rectangle 10562" fill="#fff" stroke="#ccc" stroke-width="1">
+    <rect width="35" height="35" rx="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="34" height="34" rx="4.5" fill="none"/>
+  </g>
+  <g id="Facebook_Messenger_logo_2020" transform="translate(7 7)">
+    <path id="Path_99342" data-name="Path 99342" d="M10.8,0A10.429,10.429,0,0,0,0,10.481a10.255,10.255,0,0,0,3.393,7.753.854.854,0,0,1,.289.616l.059,1.923a.864.864,0,0,0,1.213.764L7.1,20.592a.868.868,0,0,1,.578-.043,11.819,11.819,0,0,0,3.128.416,10.429,10.429,0,0,0,10.8-10.481A10.431,10.431,0,0,0,10.8,0Z" fill="url(#radial-gradient)"/>
+    <path id="Path_99343" data-name="Path 99343" d="M156.785,275.541l3.174-5.035a1.621,1.621,0,0,1,2.345-.432l2.526,1.894a.648.648,0,0,0,.781,0l3.409-2.588a.514.514,0,0,1,.746.683l-3.177,5.032a1.621,1.621,0,0,1-2.345.432l-2.526-1.894a.648.648,0,0,0-.781,0l-3.409,2.588A.512.512,0,0,1,156.785,275.541Z" transform="translate(-152.468 -261.994)" fill="#fff"/>
+  </g>
+</svg>
