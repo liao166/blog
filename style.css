@@ -368,26 +368,26 @@ a.city {
 }
 
 .jump_bef li:first-child a {
-    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_03.svg)no-repeat center center; */
-    background-size: 60%;
+    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_03.svg)no-repeat center center;
+    background-size: 60%; */
     padding-top: 1px;
 }
 
 .jump_bef li:nth-child(2) a {
-    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_01.svg)no-repeat center center; */
-    background-size: 60%;
+    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_01.svg)no-repeat center center;
+    background-size: 60%; */
     padding-top: 1px;
 }
 
 .jump_bef li:hover:first-child a {
-    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_03-o.svg)no-repeat center center; */
-    background-size: 60%;
+    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_03-o.svg)no-repeat center center;
+    background-size: 60%; */
     background-color: #282828;
 }
 
 .jump_bef li:hover:nth-child(2) a {
-    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_01-o.svg)no-repeat center center; */
-    background-size: 60%;
+    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_01-o.svg)no-repeat center center;
+    background-size: 60%; */
     background-color: #282828;
 }
 
@@ -398,26 +398,26 @@ a.city {
 }
 
 .jump_aft li:first-child a {
-    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_02.svg)no-repeat center center; */
-    background-size: 60%;
+    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_02.svg)no-repeat center center;
+    background-size: 60%; */
     padding-top: 1px;
 }
 
 .jump_aft li:nth-child(2) a {
-    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_04.svg)no-repeat center center; */
-    background-size: 60%;
+    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_04.svg)no-repeat center center;
+    background-size: 60%; */
     padding-top: 1px;
 }
 
 .jump_aft li:hover:first-child a {
-    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_02-o.svg)no-repeat center center; */
-    background-size: 60%;
+    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_02-o.svg)no-repeat center center;
+    background-size: 60%; */
     background-color: #282828;
 }
 
 .jump_aft li:hover:nth-child(2) a {
-    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_04-o.svg)no-repeat center center; */
-    background-size: 60%;
+    /* background: url(https://cc.tvbs.com.tw/2017program/images/jumpbtn_04-o.svg)no-repeat center center;
+    background-size: 60%; */
     background-color: #282828;
 }
 
