@@ -529,6 +529,7 @@ a.city {
     height: 45px;
     margin-right: 10px;
     border-radius: 120px;
+    background: linear-gradient(180deg, #ffa526 0%, #ce6e00 100%);
     overflow: hidden;
     border: 1px solid #CCCCCC;
 }
@@ -619,6 +620,9 @@ a.city {
 
 .container {
     display: grid;
+    /* repeat(12, ...)：建立 12 個等寬的 Grid 列。 */
+    /* minmax(min, max)：設定每個列的最小和最大寬度。 */
+    /* fr 是彈性比例等分單位 */
     grid-template-columns: repeat(12, minmax(0, 1fr));
     align-items: center;
 }
@@ -629,14 +633,14 @@ a.city {
     font-weight: 500;
     line-height: 30px;
     display: inline;
-    grid-column: span 11 / span 11;
+    grid-column: span 11; /* 該元素橫跨 11 個網格列 */
 }
 
 .container>button {
     display: flex;
     align-items: center;
     justify-content: center;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 1; /* 元素的寬高比例，這表示 1:1 ，寬度與高度相等 */
     width: 24px;
     margin-left: auto;
     border-radius: 4px;
@@ -656,7 +660,7 @@ a.city {
     flex-direction: column;
     row-gap: 8px;
     overflow: hidden;
-    grid-column: 1 / -1;
+    grid-column: 1 / -1; /* 類似於 width: 100% */
     transition: height 200ms ease-in-out;
 }
 
